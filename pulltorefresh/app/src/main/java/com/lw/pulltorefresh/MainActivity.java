@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 					public void run() {
 						mPullRefreshView.refreshComplete();
 					}
-				}, 2000);
+				}, 1000);
 			}
 		});
 	}
