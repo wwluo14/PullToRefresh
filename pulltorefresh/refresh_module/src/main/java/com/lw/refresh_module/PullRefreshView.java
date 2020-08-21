@@ -528,6 +528,7 @@ public class PullRefreshView extends LinearLayout {
 	 * 刷新完成，需要调用方主动发起，才能完成将刷新头收起
 	 */
 	public void refreshComplete() {
+		mRefreshTip.setText("刷新完成！");
 		setState(State.FLING);
 	}
 	
